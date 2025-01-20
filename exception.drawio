@@ -31,8 +31,14 @@
         <mxCell id="r-9AEfIxWcx4-3-EoZzo-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space: pre;&quot;&gt;ExceptionHandlerStub&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="815" y="320" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="r-9AEfIxWcx4-3-EoZzo-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space: pre;&quot;&gt;PatchReturnAddressNode&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;JVMCIRuntime::exception_handler_for_pc&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="460" width="480" height="60" as="geometry" />
+        <mxCell id="r-9AEfIxWcx4-3-EoZzo-11" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space: pre;&quot;&gt;PatchReturnAddressNode&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px; line-height: 24px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;JVMCIRuntime::exception_handler_for_pc&lt;/div&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;&lt;div style=&quot;line-height: 24px;&quot;&gt;LoongArch64HotSpotPatchReturnAddressOp&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="460" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r-9AEfIxWcx4-3-EoZzo-14" value="handle负责决定地址，当上一个栈帧能try时，ra地址回填该地址，退栈。不能时，ra填上一个栈帧的handle" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="580" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="r-9AEfIxWcx4-3-EoZzo-15" value="unwind只会在抛出异常的方法生成" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
