@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
   <diagram name="Page-1" id="acwCKmZkidqvUQwCOqH5">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-11" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=0;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="60" width="670" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-12" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Java字节码到Graal IR节点&lt;/font&gt;" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-11">
+          <mxGeometry width="670" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-32" value="Graal IR 到 LIR Instruction" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-11">
+          <mxGeometry y="210" width="670" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-13" value="LIR Instruction 到 机器码" style="swimlane;startSize=30;horizontal=0;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-11">
+          <mxGeometry y="390" width="670" height="260" as="geometry">
+            <mxRectangle y="120" width="600" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-33" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=0;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="670" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-34" value="Graal 编译流程" style="swimlane;startSize=20;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-33">
+          <mxGeometry width="176" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-37" value="Java字节码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-34">
+          <mxGeometry x="56" y="30" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-42" value="构建HIR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-34">
+          <mxGeometry x="56" y="80" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-52" value="Address Lowering phase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-34">
+          <mxGeometry x="51" y="180" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-53" value="其他Phase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-34">
+          <mxGeometry x="56" y="130" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-57" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 0px; text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;monospace&quot; color=&quot;rgba(0, 0, 0, 0)&quot;&gt;LIR&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-34">
+          <mxGeometry x="56" y="260" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-41" value="指令选择" style="swimlane;startSize=20;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-33">
+          <mxGeometry x="176" width="120" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-35" value="固定代码" style="swimlane;startSize=20;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-33">
+          <mxGeometry x="296" width="120" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-36" value="具体LIR实现" style="swimlane;startSize=20;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-33">
+          <mxGeometry x="416" width="124" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-55" value="汇编模块" style="swimlane;startSize=20;" vertex="1" parent="b25NzEHvAgJfCk7m8K_a-33">
+          <mxGeometry x="540" width="130" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="b25NzEHvAgJfCk7m8K_a-43" value="构建Graal IR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="720" width="84" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
