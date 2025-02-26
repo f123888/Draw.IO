@@ -859,8 +859,8 @@
         <mxCell id="PJVBHD5AMoMqWCpHGdgi-9" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Indices&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="366.25" y="6040" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PJVBHD5AMoMqWCpHGdgi-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;Probability&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="497" y="6040" width="93" height="50" as="geometry" />
+        <mxCell id="PJVBHD5AMoMqWCpHGdgi-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;Probabilities&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="497" y="6040" width="103" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PJVBHD5AMoMqWCpHGdgi-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Successor 1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="101.75" y="6250" width="100" height="50" as="geometry" />
