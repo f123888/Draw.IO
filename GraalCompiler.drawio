@@ -1368,7 +1368,7 @@
         <mxCell id="9EPkMwTMLO34tnoBVW8a-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="9EPkMwTMLO34tnoBVW8a-5" target="3uFvsSg2rkh7UaSVAgNL-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9EPkMwTMLO34tnoBVW8a-5" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Range Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9EPkMwTMLO34tnoBVW8a-5" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Range Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="289.38" y="6587.5" width="203" height="132.5" as="geometry" />
         </mxCell>
         <mxCell id="9EPkMwTMLO34tnoBVW8a-8" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;...&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1401,7 +1401,7 @@
         <mxCell id="9EPkMwTMLO34tnoBVW8a-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="9EPkMwTMLO34tnoBVW8a-18" target="3uFvsSg2rkh7UaSVAgNL-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9EPkMwTMLO34tnoBVW8a-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Hash Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9EPkMwTMLO34tnoBVW8a-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Hash Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="264.75" y="7247.5" width="203" height="172.5" as="geometry" />
         </mxCell>
         <mxCell id="9EPkMwTMLO34tnoBVW8a-19" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;...&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
