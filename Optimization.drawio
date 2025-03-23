@@ -1914,8 +1914,8 @@
         </mxCell>
         <mxCell id="jx5smBggl197WeAp-D2H-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="359" y="1970" as="sourcePoint" />
-            <mxPoint x="390" y="1970" as="targetPoint" />
+            <mxPoint x="363" y="1970" as="sourcePoint" />
+            <mxPoint x="394" y="1970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
