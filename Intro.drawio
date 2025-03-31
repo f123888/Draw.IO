@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.3">
   <diagram name="第 1 页" id="rlvaH6GBciBB53dzkXEO">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;解释器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-7" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;JVMCI Java Interface&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="265" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;JVMCI Runtime&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="205" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Graph Builder&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-14" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Node Phase&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Node LIR Builder&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;LIR Phase&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-18" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Emit Code&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Node Match Rule&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="430" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Graph Build Plugins&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="490" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CodeCache&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="B8oqcPG8_DNqkmwYoWYk-22" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;LoongArch Assembly&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
