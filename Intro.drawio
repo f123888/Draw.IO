@@ -216,10 +216,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g8qaUCDF3smSh_8uk9zA-15" value="disabled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;rotation=340;" vertex="1" parent="1">
-          <mxGeometry x="476.5" y="865" width="80" height="30" as="geometry" />
+          <mxGeometry x="479" y="870" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g8qaUCDF3smSh_8uk9zA-16" value="enabled" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;rotation=17;" vertex="1" parent="1">
-          <mxGeometry x="500.5" y="920" width="70" height="30" as="geometry" />
+          <mxGeometry x="490.5" y="920" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g8qaUCDF3smSh_8uk9zA-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
