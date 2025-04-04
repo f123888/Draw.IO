@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.5">
   <diagram name="Page-1" id="acwCKmZkidqvUQwCOqH5">
-    <mxGraphModel dx="1183" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -303,19 +303,19 @@
         <mxCell id="GOm38GStyMNKn4AWp28O-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;emitCode&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="370" y="950" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VwOEmo3AU2konp4xYrkq-1" value="_mark: markWord" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VwOEmo3AU2konp4xYrkq-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;_mark: markWord&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="270" y="1260" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VwOEmo3AU2konp4xYrkq-2" value="_klass:&amp;nbsp;klassOop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VwOEmo3AU2konp4xYrkq-2" value="_klass:&amp;nbsp;klassOop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=default;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="270" y="1300" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VwOEmo3AU2konp4xYrkq-3" value="_length: int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=0;shadow=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VwOEmo3AU2konp4xYrkq-3" value="_length: int" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=default;glass=0;shadow=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="270" y="1340" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VwOEmo3AU2konp4xYrkq-4" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VwOEmo3AU2konp4xYrkq-4" value="data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=default;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="270" y="1380" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VwOEmo3AU2konp4xYrkq-5" value="padding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="VwOEmo3AU2konp4xYrkq-5" value="padding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=default;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="270" y="1440" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VwOEmo3AU2konp4xYrkq-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
