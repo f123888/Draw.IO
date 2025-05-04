@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="_G9lPoWxat7-0CAS5zM7">
-    <mxGraphModel dx="1951" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2131" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -498,6 +498,65 @@
         </mxCell>
         <mxCell id="lY_myCPlw1B3WVPCYFrn-17" value="重定位指令序列：&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;lu12i.w + ori + lu32i.d&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="387" y="3190" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-22" target="lY_myCPlw1B3WVPCYFrn-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-22" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="316" y="3540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-24" target="lY_myCPlw1B3WVPCYFrn-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="3670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-24" value="获取当前CodeCache的上下边界地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="3598" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-29" target="lY_myCPlw1B3WVPCYFrn-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-29" value="与目标地址相减，取绝对值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="3670" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-31" target="lY_myCPlw1B3WVPCYFrn-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-31" value="绝对值较大值与bl跳转范围比较" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="3740" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-33" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-37" value="JNI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-40" target="lY_myCPlw1B3WVPCYFrn-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-40" target="lY_myCPlw1B3WVPCYFrn-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-40" value="最坏情况下是否在&lt;br&gt;bl跳转范围内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="3810" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-41" value="采用Normal Code Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="156" y="3890" width="148" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-42" value="采用Medium Code Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="3890" width="159" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-41" target="lY_myCPlw1B3WVPCYFrn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lY_myCPlw1B3WVPCYFrn-42" target="lY_myCPlw1B3WVPCYFrn-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-48" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="3808" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lY_myCPlw1B3WVPCYFrn-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="237" y="3808" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
