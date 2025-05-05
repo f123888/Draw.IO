@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="acwCKmZkidqvUQwCOqH5">
-    <mxGraphModel dx="2459" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2745" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1469,6 +1469,110 @@
         </mxCell>
         <mxCell id="qRxfApKBK0HwC_cg8-Xp-6" value="&lt;span style=&quot;font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;Hash Table&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="540" y="7040" width="286" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-21" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1yCLPmokocC5tUzcKYaJ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-26" target="1yCLPmokocC5tUzcKYaJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-26" target="1yCLPmokocC5tUzcKYaJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-26" value="目标Label是否绑定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="240" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-28" target="1yCLPmokocC5tUzcKYaJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-28" value="根据编码规则生成编码内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-32" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-33" target="1yCLPmokocC5tUzcKYaJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-33" value="计算偏移地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1347.69" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-36" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1307.69" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-38" value="生成指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1347.69" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-40" target="1yCLPmokocC5tUzcKYaJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-40" value="将编码内容临填入CodeBuffer中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-41" value="将该指令在CodeBuffer中的位置加入Label待回填数组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-41" target="1yCLPmokocC5tUzcKYaJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-38" target="1yCLPmokocC5tUzcKYaJ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-46" target="1yCLPmokocC5tUzcKYaJ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-46" value="开始" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-50" target="1yCLPmokocC5tUzcKYaJ-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-50" value="是否遍历完毕" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1227.69" y="1000" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-53" value="结束" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1267.69" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1347.69" y="1000" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-57" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1307.69" y="1050" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-65" target="1yCLPmokocC5tUzcKYaJ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-65" value="遍历待回填数组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1237.69" y="730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-66" target="1yCLPmokocC5tUzcKYaJ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-66" value="解码，获取编码类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1237.69" y="795" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-67" target="1yCLPmokocC5tUzcKYaJ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-67" value="根据编码类型和数据生成指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1237.69" y="865" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-68" target="1yCLPmokocC5tUzcKYaJ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-68" value="回填到CodeBuffer中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1237.69" y="930" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1yCLPmokocC5tUzcKYaJ-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1yCLPmokocC5tUzcKYaJ-50" target="1yCLPmokocC5tUzcKYaJ-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
