@@ -772,7 +772,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ib67nMmPn87TImr3fV7o-51" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;工作二：为Graal编译器添加LoongArch架构输出&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="1357.0000000000002" y="387.75" width="420" height="40" as="geometry" />
+          <mxGeometry x="1380.0000000000002" y="382.75" width="420" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ib67nMmPn87TImr3fV7o-52" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
